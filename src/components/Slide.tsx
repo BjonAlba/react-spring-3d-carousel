@@ -87,7 +87,7 @@ export default function Slide({
 
     return (
         <Spring to={to} config={animationConfig}>
-            {(style) => (
+            {(style: any) => (
                 <SlideContainer
                     style={{
                         ...style,
